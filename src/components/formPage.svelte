@@ -55,8 +55,8 @@
     </div>
     
     <div class=" max-w-3xl mx-auto text-center px-10 lg:px-6 text-sm lg:text-base z-10">
-        <h1 class="text-[#E762C6] text-4xl font-bold">JOIN US</h1>
-        <p class="text-sm mt-2">Want to make an impact with Builders League? Whether you're interested in sponsoring, volunteering, or pitching a project, we'd love to hear from you.</p>
+        <h1 class="text-[#E762C6] text-5xl font-bold">JOIN US</h1>
+        <p class="text-base mt-2">Want to make an impact with Builders League? Whether you're interested in sponsoring, volunteering, or pitching a project, we'd love to hear from you.</p>
         
         <div class="border border-white p-6 mt-6 rounded-lg">
             <form action="/api/sendform" method="POST" class="space-y-4">

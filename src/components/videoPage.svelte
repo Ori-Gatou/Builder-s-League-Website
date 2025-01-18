@@ -31,13 +31,12 @@
                 frameborder="0" allowfullscreen>
             </iframe>
         </div>
-
-        
     </div>
+
     <div>
         <!-- Dots Image (Bottom Left) -->
-        <img src="circledeswhitebelow.svg" alt="Dots Pattern" class="absolute bottom-8 left-0 pl-10 lg:pl-20 h-12 md:h-20 z-0">
+        <img src="circledeswhitebelow.svg" alt="Dots Pattern" class="absolute bottom-8 sm:bottom-16 left-0 pl-10 lg:pl-20 h-12 md:h-20 z-0">
         <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Bottom Right Symbol" class="absolute bottom-8 right-0 pr-10 lg:pr-20 h-5 md:h-10 z-0">
+        <img src="tridesabove.svg" alt="Bottom Right Symbol" class="absolute bottom-8 sm:bottom-16 right-0 pr-10 lg:pr-20 h-5 md:h-10 z-0">
     </div>
 </div>
