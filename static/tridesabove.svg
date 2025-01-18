@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="triangle_design" data-name="triangle design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 93.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="54.13 0 0 93.75 108.26 93.75 54.13 0"/>
+  <polygon class="cls-1" points="521.87 0 467.74 93.75 576 93.75 521.87 0"/>
+  <polygon class="cls-1" points="210.04 0 155.91 93.75 264.17 93.75 210.04 0"/>
+  <polygon class="cls-1" points="365.96 0 311.83 93.75 420.09 93.75 365.96 0"/>
+  <polygon class="cls-1" points="132.09 93.75 186.22 0 77.96 0 132.09 93.75"/>
+  <polygon class="cls-1" points="288 93.75 342.13 0 233.87 0 288 93.75"/>
+  <polygon class="cls-1" points="443.91 93.75 498.04 0 389.78 0 443.91 93.75"/>
+</svg>
