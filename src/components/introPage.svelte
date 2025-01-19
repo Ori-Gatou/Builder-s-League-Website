@@ -30,7 +30,7 @@
 
     <!-- Main Content -->
     <div class="max-w-2xl mx-auto text-center px-6 z-10">
-        <h1 class="text-4xl md:text-5xl font-bold text-sky-400 leading-tight">
+        <h1 class="text-4xl md:text-5xl font-bold text-[#42C7F3] leading-tight">
             SOLVING REAL PROBLEMS AND CHANGING THE WORLD
         </h1>
         <p class="mt-6 text-lg italic font-semibold">
@@ -39,7 +39,7 @@
         <p class="mt-4 text-base italic">
             Click the button below to let us know how you’d like to contribute!
         </p>
-        <a id="anchor-link" href="#form-page" class="mt-6 inline-block bg-sky-400 text-white font-semibold py-3 px-6 rounded-md shadow-md hover:bg-sky-500 transition">
+        <a id="anchor-link" href="#form-page" class="mt-6 inline-block bg-[#42C7F3] text-white font-semibold py-3 px-6 rounded-md shadow-md hover:bg-sky-500 transition">
             Get Involved
         </a>
     </div>

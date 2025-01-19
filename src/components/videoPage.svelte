@@ -10,7 +10,7 @@
 
     <div class="relative w-full max-w-3xl text-center px-6 z-10">
         <!-- Title -->
-        <div class="text-pink-500 font-extrabold text-0">
+        <div class="text-[#EA5FA3] font-extrabold text-0">
             <span class="text-6xl">BUILDERS</span>
             <div>
               <span class="text-6xl">LEAGUE</span>
