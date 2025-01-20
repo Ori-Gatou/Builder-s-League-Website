@@ -58,11 +58,11 @@ import {
     ];
 </script>
 
-<div class="relative flex flex-col justify-between bg-white font-sans sm:h-[100vh]">
+<div class="relative flex flex-col justify-between bg-white sm:h-[100vh]">
     <!-- hide when screen size is small -->
     <div class="hidden sm:block">
         <!-- Top Left FAQ -->
-        <h1 class="absolute top-5 left-0 pl-10 lg:pl-20 font-bold text-[#792298] text-6xl md:text-8xl">
+        <h1 class="absolute top-5 left-0 pl-10 lg:pl-20 font-bold text-[#792298] text-6xl md:text-8xl ">
             FAQ
         </h1>
         <!-- Top Right Symbol -->
@@ -79,7 +79,7 @@ import {
         <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="pr-10 h-12 mt-8">
     </div>
    
-    <div class="relative w-full max-w-3xl px-10 lg:px-6 mx-auto text-sm z-10">
+    <div class="relative w-full max-w-3xl px-10 lg:px-6 mx-auto text-sm md:text-sm z-10 font-comfortaa">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {#each faqItems.slice(0, 3) as item, index}
                 {#if index != 2}

@@ -56,9 +56,9 @@
     
     <div class=" max-w-3xl mx-auto text-center px-10 lg:px-6 text-sm lg:text-base z-10">
         <h1 class="text-[#E762C6] text-5xl font-bold">JOIN US</h1>
-        <p class="text-base mt-2">Want to make an impact with Builders League? Whether you're interested in sponsoring, volunteering, or pitching a project, we'd love to hear from you.</p>
+        <p class="text-base mt-2 font-comfortaa">Want to make an impact with Builders League? Whether you're interested in sponsoring, volunteering, or pitching a project, we'd love to hear from you.</p>
         
-        <div class="border border-white p-6 mt-6 rounded-lg">
+        <div class="border border-white p-6 mt-6 rounded-lg font-comfortaa">
             <form action="/api/sendform" method="POST" class="space-y-4">
                 <label class="block text-left">1. What is your name?</label>
                 <input name="name" type="text" class="w-11/12 p-2 text-black rounded" required placeholder="Your name" maxlength="100"/>
@@ -90,7 +90,7 @@
                 <br />
                 <br />
             
-                <button type="submit" class="w-1/3 bg-[#4CC9F0] text-black font-bold py-2 rounded mt-6">SUBMIT</button>
+                <button type="submit" class="w-1/4 bg-[#42C7F3] text-white font-bold py-2 rounded-lg mt-6 hover:bg-sky-500 transition">SUBMIT</button>
             </form>
         </div>
     </div>

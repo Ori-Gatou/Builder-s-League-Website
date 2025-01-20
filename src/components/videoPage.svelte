@@ -19,7 +19,7 @@
         </div>
 
         <!-- Description -->
-        <p class="mt-4 text-sm md:text-base max-w-xl mx-auto">
+        <p class="mt-4 text-sm md:text-base max-w-xl mx-auto font-comfortaa">
             Dive into the highlights of our previous Builders League event where ideas turned into solutions and teamwork made it possible. 
             This video perfectly showcases the energy of our amazing community.
         </p>
