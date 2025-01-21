@@ -9,7 +9,6 @@ import {
 	scale,
 	slide
 } from 'svelte/transition';
-    let showMore = $state(false)
     let faqItems = [
         {
             question: "1. What is a Builders League Hackathon?",
@@ -56,6 +55,9 @@ import {
             answer: "We welcome sponsors and supporters! Contact us through our website or email us directly to learn about sponsorship opportunities and how you can contribute to our mission."
         }
     ];
+
+    let showMore = faqItems.map(() => false)
+
 </script>
 
 <div class="relative flex flex-col justify-between bg-white sm:h-[100vh]">
@@ -81,31 +83,34 @@ import {
    
     <div class="relative w-full max-w-3xl px-10 lg:px-6 mx-auto text-sm md:text-sm z-10 font-comfortaa">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {#each faqItems.slice(0, 3) as item, index}
+            {#each faqItems as item, index}
                 {#if index != 2}
-                    <div class="bg-[#EDEB52] col-span-1 p-2 rounded-md">
-                        <b>{item.question}</b><br>
-                        <span class="text-xs">{@html item.answer}</span>
-                    </div>
+                <div class="bg-[#EDEB52] col-span-1 p-2 rounded-md">
+                    <b>{item.question}</b><br>
+                    <span class="text-xs overflow-hidden" style="display: -webkit-box; -webkit-line-clamp: {showMore[index] ? 'unset' : 3}; -webkit-box-orient: vertical;">
+                        {@html item.answer}
+                    </span>
+                    <button 
+                        class="text-[#792298] text-xs underline mt-1 cursor-pointer"
+                        on:click={() => showMore[index] = !showMore[index]}>
+                        {showMore[index] ? "See Less" : "See More"}
+                    </button>
+                </div>
                 {:else}
-                    <div class="bg-[#EDEB52] col-span-1 md:col-span-2 p-2 rounded-md">
-                        <b>{item.question}</b><br>
-                        <span class="text-xs">{@html item.answer}</span>
-                    </div>
+                <div class="bg-[#EDEB52] col-span-1 md:col-span-2 p-2 rounded-md">
+                    <b>{item.question}</b><br>
+                    <span class="text-xs block overflow-hidden" style="display: -webkit-box; -webkit-line-clamp: {showMore[index] ? 'unset' : 3}; -webkit-box-orient: vertical;">
+                        {@html item.answer}
+                    </span>
+                    <button 
+                        class="text-[#792298] text-xs underline mt-1 cursor-pointer"
+                        on:click={() => showMore[index] = !showMore[index]}>
+                        {showMore[index] ? "See Less" : "See More"}
+                    </button>
+                </div>
                 {/if}
             {/each}
-            {#if showMore}
-                {#each faqItems.slice(3) as item}
-                    <div class="bg-[#EDEB52] col-span-1 p-2 rounded-md" transition:fly|global>
-                        <b>{item.question}</b><br>
-                        <span class="text-xs">{@html item.answer}</span>
-                    </div>
-                {/each}
-            {/if}
-       </div>
-       <button class="mt-4 w-full bg-sky-400 text-white font-semibold py-2 px-6 rounded-md shadow-md hover:bg-sky-500 transition" onclick={() => showMore = !showMore}>
-            {showMore ? "See Less" : "See More"}
-        </button>
+        </div>
     </div>
 
     
