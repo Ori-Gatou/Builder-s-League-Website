@@ -34,24 +34,15 @@
     });
 </script>
 
-<div id="form-page" class="relative flex flex-col justify-between bg-black text-white sm:h-[100vh]">
-
-    <!-- hide when screen size is small -->
-    <div class="hidden sm:block">
-        <!-- Top Left Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="absolute top-16 left-0 pl-10 lg:pl-20 h-5 md:h-10 z-0">
-
-        <!-- Top Right Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="absolute top-16 right-0 pr-10 lg:pr-20 h-20 md:h-28 z-0 -translate-y-5">
-    </div>
+<div id="form-page" class="relative flex flex-col justify-between bg-black text-white">
 
     <!-- show when screen size is small -->
-    <div class="sm:hidden flex flex-row justify-between">
+    <div class="flex flex-row justify-between">
         <!-- Top Left Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="mt-8 sm:top-16 pl-5 h-5 z-0 ">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="mt-8 sm:top-16 pl-5 sm:pl-10 lg:pl-20 h-5 md:h-10 z-0">
 
         <!-- Top Right Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="mt-8 pr-5 h-20 z-0 -translate-y-5">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="mt-8 pr-5 sm:pr-10 lg:pr-20 h-20 md:h-28 z-0 -translate-y-5">
     </div>
     
     <div class=" max-w-3xl mx-auto text-center px-10 lg:px-6 text-sm lg:text-base z-10">
@@ -95,19 +86,11 @@
         </div>
     </div>
 
-    <!-- hide when screen size is small -->
-    <div class="hidden sm:block">
-        <!-- Bottom Left Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="absolute bottom-10 left-0 pl-10 lg:pl-20 h-20 md:h-28 z-0 translate-y-5">
-        <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="absolute bottom-10 right-0 pr-10 lg:pr-20 h-5 md:h-10 z-0">
-    </div>
-    
     <!-- show when screen size is small -->
-    <div class="sm:hidden flex flex-row justify-between mt-8">
+    <div class="flex flex-row justify-between mt-8">
         <!-- Bottom Left Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 h-20 z-0 -translate-y-5">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 lg:pl-20 h-20 md:h-28 z-0">
         <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 h-5 z-0">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 lg:pr-20 h-5 md:h-10 z-0">
     </div>
 </div>

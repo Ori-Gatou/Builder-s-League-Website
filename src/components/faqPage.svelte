@@ -60,25 +60,15 @@ import {
 
 </script>
 
-<div class="relative flex flex-col justify-between bg-white sm:h-[100vh]">
-    <!-- hide when screen size is small -->
-    <div class="hidden sm:block">
-        <!-- Top Left FAQ -->
-        <h1 class="absolute top-5 left-0 pl-10 lg:pl-20 font-bold text-[#792298] text-6xl md:text-8xl ">
-            FAQ
-        </h1>
-        <!-- Top Right Symbol -->
-        <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="absolute top-10 right-0 pr-10 lg:pr-20 h-12 md:h-20">
-   </div>
+<div class="relative flex flex-col justify-between bg-white">
 
-    <!-- show when screen size is small -->
-   <div class="sm:hidden flex flex-row justify-between">
+   <div class="flex flex-row justify-between">
         <!-- Top Left FAQ -->
-        <h1 class="my-8 left-0 pl-10 font-bold text-[#792298] text-5xl">
+        <h1 class="my-8 left-0 pl-10 font-bold text-[#792298] text-5xl lg:pl-20 sm:text-6xl md:text-8xl">
             FAQ
         </h1>
         <!-- Top Right Symbol -->
-        <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="pr-10 h-12 mt-8">
+        <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="mt-8 pr-10 lg:pr-20 h-12 md:h-20">
     </div>
    
     <div class="relative w-full max-w-3xl px-10 lg:px-6 mx-auto text-sm md:text-sm z-10 font-comfortaa">
@@ -113,25 +103,12 @@ import {
         </div>
     </div>
 
-    
-   
-    <!-- hide when screen size is small -->
-    <div class="hidden sm:block">
+    <div class="flex flex-row justify-between my-8">
         <!-- Dots Image (Bottom Left) -->
-       <img src="cirdesblackabove.svg" alt="Dots Pattern" class="absolute bottom-10 left-0 pl-10 lg:pl-20 h-12 md:h-20">
-       <!-- Star Image (Bottom Middle) -->
-       <img src="stardesblack.png" alt="Bottom Right Symbol" class="absolute left-[50%] bottom-10 h-12 md:h-20 -translate-x-1/2">
-       <!-- Dots Image (Bottom Right) -->
-       <img src="cirdesblackabove.svg" alt="Bottom Right Symbol" class="absolute bottom-10 right-0 pr-10 lg:pr-20 h-12 md:h-20">
-   </div>
-   
-    <!-- show when screen size is small -->
-   <div class="sm:hidden flex flex-row justify-between my-8">
-        <!-- Dots Image (Bottom Left) -->
-        <img src="cirdesblackabove.svg" alt="Dots Pattern" class=" pl-10 h-12">
+        <img src="cirdesblackabove.svg" alt="Dots Pattern" class=" pl-10 h-12 lg:pl-20 md:h-20">
         <!-- Star Image (Bottom Middle) -->
-        <img src="stardesblack.png" alt="Bottom Right Symbol" class=" h-12">
+        <img src="stardesblack.png" alt="Bottom Right Symbol" class="h-12 md:h-20">
         <!-- Dots Image (Bottom Right) -->
-        <img src="cirdesblackabove.svg" alt="Bottom Right Symbol" class=" pr-10 h-12">
+        <img src="cirdesblackabove.svg" alt="Bottom Right Symbol" class="right-0 pr-10 lg:pr-20 h-12 md:h-20">
     </div>
 </div>
