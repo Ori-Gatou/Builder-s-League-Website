@@ -34,7 +34,7 @@
     });
 </script>
 
-<div id="form-page" class="relative flex flex-col justify-between bg-black text-white">
+<div id="form-page" class="relative flex flex-col justify-between bg-black text-white lg:h-[100vh]">
 
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between">

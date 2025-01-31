@@ -52,7 +52,7 @@ import {
         },
         {
             question: "9. I want to sponsor or support Builders League. How can I get involved?",
-            answer: "We welcome sponsors and supporters! Contact us through our website or email us directly to learn about sponsorship opportunities and how you can contribute to our mission."
+            answer: "We welcome sponsors a nd supporters! Contact us through our website or email us directly to learn about sponsorship opportunities and how you can contribute to our mission."
         }
     ];
 
@@ -60,7 +60,7 @@ import {
 
 </script>
 
-<div class="relative flex flex-col justify-between bg-white">
+<div class="relative flex flex-col justify-between bg-white lg:h-[100vh]">
 
    <div class="flex flex-row justify-between">
         <!-- Top Left FAQ -->
