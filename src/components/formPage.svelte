@@ -2,9 +2,8 @@
     import { onMount } from "svelte";
 
     onMount(() => {
-        const collaborateYes = document.querySelector('input[name="collaborate"][value="yes"]');
-        const collaborateNo = document.querySelector('input[name="collaborate"][value="no"]');
-        const ideaInput = document.querySelector('input[name="idea"]');
+        const collaborateInput = document.querySelectorAll('input[name="collaborate"]');
+        const ideaInput = document.querySelector('textarea[name="idea"]');
         
         // Initially, set the 'idea' field as not required
         if (ideaInput) {
@@ -12,25 +11,17 @@
         }
         
         // Listen for changes on the "collaborate" radio buttons
-        if (collaborateYes && collaborateNo) {
-            collaborateYes.addEventListener('change', () => {
-                if (collaborateYes instanceof HTMLInputElement && collaborateYes.checked) {
-                    // Set 'idea' as required when 'Yes' is selected
-                    if (ideaInput) {
+        collaborateInput.forEach((input)=>{
+            input.addEventListener('change', ()=>{
+                if (input instanceof HTMLInputElement && ideaInput){
+                    if(input.value === "yes" && input.checked){
                         ideaInput.setAttribute('required', 'true');
-                    }
-                }
-            });
-    
-            collaborateNo.addEventListener('change', () => {
-                if (collaborateNo instanceof HTMLInputElement && collaborateNo.checked) {
-                    // Remove 'required' from 'idea' when 'No' is selected
-                    if (ideaInput) {
+                    }else{
                         ideaInput.removeAttribute('required');
-                    }
+                    }                   
                 }
-            });
-        }
+            })
+        })
     });
 </script>
 
