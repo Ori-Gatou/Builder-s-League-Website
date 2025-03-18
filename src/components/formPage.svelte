@@ -25,8 +25,7 @@
     });
 </script>
 
-<div id="form-page" class="relative flex flex-col justify-center bg-black text-white 2xl:h-[100vh]">
-
+<div id="form-page" class="relative flex flex-col justify-center bg-black text-white ">
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
@@ -76,7 +75,7 @@
         </div>
     </div>
 
-    <div class="flex flex-row justify-between mb-8 md:mb-16">
+    <div class="flex flex-row justify-between mb-8 ">
         <!-- Bottom Left Symbol -->
         <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 md:pl-20 h-20 md:h-28">
         <!-- Bottom Right Symbol -->
