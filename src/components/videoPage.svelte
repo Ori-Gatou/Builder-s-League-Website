@@ -1,6 +1,6 @@
 <div class="relative flex flex-col justify-between bg-black text-white h-[100vh]">
-     <!-- show when screen size is small -->
-     <div class="flex flex-row justify-between mt-8 md:mt-16">
+    <!-- show when screen size is small -->
+    <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
         <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-20 h-5 md:h-10">
 
