@@ -25,7 +25,7 @@
     });
 </script>
 
-<div id="form-page" class="relative flex flex-col justify-center bg-black text-white ">
+<div id="form-page" class="relative flex flex-col justify-center bg-black text-white lg:h-[100vh]">
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
