@@ -25,7 +25,7 @@
     });
 </script>
 
-<div id="form-page" class="relative flex flex-col justify-between bg-black text-white lg:h-[100vh]">
+<div id="form-page" class="relative flex flex-col justify-between bg-black text-white md:h-[100vh]">
 
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between">
