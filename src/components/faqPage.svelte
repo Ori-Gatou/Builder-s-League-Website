@@ -62,16 +62,16 @@ import {
 
 <div class="relative flex flex-col justify-between bg-white md:h-[100vh]">
 
-   <div class="flex flex-row justify-between">
+   <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left FAQ -->
-        <h1 class="my-8 left-0 pl-10 font-bold text-[#792298] text-5xl lg:pl-20 sm:text-6xl md:text-8xl">
+        <h1 class="left-0 pl-10 font-bold text-[#792298] text-5xl md:pl-20 sm:text-6xl md:text-8xl">
             FAQ
         </h1>
         <!-- Top Right Symbol -->
-        <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="mt-8 pr-10 lg:pr-20 h-12 md:h-20">
+        <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="pr-10 md:pr-20 h-12 md:h-20">
     </div>
    
-    <div class="relative w-full max-w-3xl px-10 lg:px-6 mx-auto text-sm md:text-sm z-10 font-comfortaa">
+    <div class="relative w-full max-w-3xl px-10 md:px-6 mx-auto my-8 md:my-0 text-sm md:text-sm font-comfortaa ">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {#each faqItems as item, index}
                 {#if index != 2}
@@ -103,12 +103,12 @@ import {
         </div>
     </div>
 
-    <div class="flex flex-row justify-between my-8">
+    <div class="flex flex-row justify-between mb-8 md:mb-16">
         <!-- Dots Image (Bottom Left) -->
-        <img src="cirdesblackabove.svg" alt="Dots Pattern" class=" pl-10 h-12 lg:pl-20 md:h-20">
+        <img src="cirdesblackabove.svg" alt="Dots Pattern" class=" pl-10 h-12 md:pl-20 md:h-20">
         <!-- Star Image (Bottom Middle) -->
         <img src="stardesblack.png" alt="Bottom Right Symbol" class="h-12 md:h-20">
         <!-- Dots Image (Bottom Right) -->
-        <img src="cirdesblackabove.svg" alt="Bottom Right Symbol" class="right-0 pr-10 lg:pr-20 h-12 md:h-20">
+        <img src="cirdesblackabove.svg" alt="Bottom Right Symbol" class="right-0 pr-10 md:pr-20 h-12 md:h-20">
     </div>
 </div>

@@ -25,18 +25,17 @@
     });
 </script>
 
-<div id="form-page" class="relative flex flex-col justify-between bg-black text-white md:h-[100vh]">
+<div id="form-page" class="relative flex flex-col justify-center bg-black text-white ">
 
     <!-- show when screen size is small -->
-    <div class="flex flex-row justify-between">
+    <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="mt-8 sm:top-16 pl-5 sm:pl-10 lg:pl-20 h-5 md:h-10 z-0">
-
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-20 h-5 md:h-10">
         <!-- Top Right Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="mt-8 pr-5 sm:pr-10 lg:pr-20 h-20 md:h-28 z-0 -translate-y-5">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-20 h-20 md:h-28 -translate-y-5">
     </div>
     
-    <div class=" max-w-3xl mx-auto text-center px-10 lg:px-6 text-sm lg:text-base z-10">
+    <div class="relative w-full max-w-3xl px-10 md:px-6 mx-auto my-8 text-sm text-center md:text-sm ">
         <h1 class="text-[#E762C6] text-5xl font-bold">JOIN US</h1>
         <p class="text-base mt-2 font-comfortaa">Want to make an impact with Builders League? Whether you're interested in sponsoring, volunteering, or pitching a project, we'd love to hear from you.</p>
         
@@ -77,11 +76,10 @@
         </div>
     </div>
 
-    <!-- show when screen size is small -->
-    <div class="flex flex-row justify-between mt-8">
+    <div class="flex flex-row justify-between mb-8 md:mb-16">
         <!-- Bottom Left Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 lg:pl-20 h-20 md:h-28 z-0">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 md:pl-20 h-20 md:h-28">
         <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 lg:pr-20 h-5 md:h-10 z-0">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 md:pr-20 h-5 md:h-10">
     </div>
 </div>

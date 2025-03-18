@@ -1,14 +1,14 @@
-<div class="relative flex flex-col justify-between bg-black text-white items-center h-[100vh]">
-    <div>
-         <!-- Top Left Symbol -->
-         <img src="tridesabove.svg" alt="Top Left Symbol" class="absolute top-8 sm:top-16 left-0 pl-10 lg:pl-20 h-5 md:h-10 z-0">
+<div class="relative flex flex-col justify-between bg-black text-white h-[100vh]">
+     <!-- show when screen size is small -->
+     <div class="flex flex-row justify-between mt-8 md:mt-16">
+        <!-- Top Left Symbol -->
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-20 h-5 md:h-10">
 
-         <!-- Top Right Symbol -->
-         <img src="stardeswhite.png" alt="Top Right Symbol" class="absolute top-8 sm:top-16  right-0 pr-10 lg:pr-20 h-20 md:h-28 z-0 -translate-y-5">
- 
+        <!-- Top Right Symbol -->
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-20 h-20 md:h-28 -translate-y-5">
     </div>
 
-    <div class="relative w-full max-w-3xl text-center px-6 z-10">
+    <div class="relative w-full max-w-3xl text-center px-6 self-center">
         <!-- Title -->
         <div class="text-[#EA5FA3] font-extrabold text-0">
             <span class="text-6xl">BUILDERS</span>
@@ -33,10 +33,10 @@
         </div>
     </div>
 
-    <div>
-        <!-- Dots Image (Bottom Left) -->
-        <img src="circledeswhitebelow.svg" alt="Dots Pattern" class="absolute bottom-8 sm:bottom-16 left-0 pl-10 lg:pl-20 h-12 md:h-20 z-0">
+    <div class="flex flex-row justify-between mb-8 md:mb-16">
+        <!-- Bottom Left Symbol -->
+        <img src="circledeswhitebelow.svg" alt="Top Right Symbol" class="pl-5 sm:pl-10 md:pl-20 h-12 md:h-20">
         <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Bottom Right Symbol" class="absolute bottom-8 sm:bottom-16 right-0 pr-10 lg:pr-20 h-5 md:h-10 z-0">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 md:pr-20 h-5 md:h-10">
     </div>
 </div>
