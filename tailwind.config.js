@@ -6,7 +6,10 @@ export default {
       fontFamily: {
         'poppins': ['Poppins'],
         'comfortaa': ['Comfortaa'],
-     }
+     },
+      screens: {
+        'md2': '820px',
+      },
     },
   },
   plugins: [],
