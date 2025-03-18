@@ -24,12 +24,12 @@
         </div>
     
         <!-- Dots (Top Left) -->
-        <img src="cirdesblackabove.svg" alt="Dots Pattern" class="absolute top-32 pl-20 z-1 hidden sm:block sm:h-12 md:h-20">
+        <img src="cirdesblackabove.svg" alt="Dots Pattern" class="absolute top-32 pl-20 hidden sm:block h-12 md:h-20">
     </div>
     
 
     <!-- Main Content -->
-    <div class="max-w-2xl mx-auto text-center px-6 z-2">
+    <div class="max-w-2xl mx-auto text-center px-6">
         <h1 class="text-4xl md:text-5xl font-bold text-[#42C7F3] leading-tight">
             SOLVING REAL PROBLEMS AND CHANGING THE WORLD
         </h1>
@@ -46,6 +46,6 @@
 
     <!-- Dots (Bottom Right) -->
     <div>
-        <img src="cirdesblackabove.svg" alt="Dots Pattern" class="absolute bottom-16 right-0 pr-20 h-12 md:h-20 z-1">
+        <img src="cirdesblackabove.svg" alt="Dots Pattern" class="absolute bottom-8 md:bottom-16 right-0 pr-5 sm:pr-10 md:pr-20 h-12 md:h-20">
     </div>
 </div>
