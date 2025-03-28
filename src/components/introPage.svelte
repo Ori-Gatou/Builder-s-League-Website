@@ -29,7 +29,7 @@
     
 
     <!-- Main Content -->
-    <div class="max-w-2xl mx-auto text-center px-6">
+    <div class="max-w-3xl mx-auto text-center px-6">
         <h1 class="text-4xl md:text-5xl font-bold text-[#42C7F3] leading-tight">
             SOLVING REAL PROBLEMS AND CHANGING THE WORLD
         </h1>

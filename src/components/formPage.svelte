@@ -34,7 +34,7 @@
         <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-20 h-20 md:h-28 -translate-y-5">
     </div>
     
-    <div class="relative w-full max-w-3xl px-10 md:px-6 mx-auto mb-8 text-sm text-center md:text-sm ">
+    <div class="relative w-full max-w-xl px-10 md:px-6 mx-auto mb-8 text-sm text-center md:text-sm ">
         <h1 class="text-[#E762C6] text-5xl font-bold">JOIN US</h1>
         <p class="text-base mt-2 font-comfortaa">Want to make an impact with Builders League? Whether you're interested in sponsoring, volunteering, or pitching a project, we'd love to hear from you.</p>
         
