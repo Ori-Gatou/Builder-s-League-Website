@@ -75,7 +75,7 @@
         </div>
     </div>
 
-    <div class="flex flex-row justify-between mb-8 ">
+    <div class="flex flex-row justify-between">
         <!-- Bottom Left Symbol -->
         <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 md:pl-20 h-20 md:h-28">
         <!-- Bottom Right Symbol -->
