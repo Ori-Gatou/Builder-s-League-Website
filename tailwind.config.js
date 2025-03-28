@@ -8,7 +8,7 @@ export default {
         'comfortaa': ['Comfortaa'],
      },
       screens: {
-        '2md': '1600px',
+        '2md': '1601px',
         'wd': '3440px',
       },
     },
