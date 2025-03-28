@@ -8,6 +8,7 @@ export default {
         'comfortaa': ['Comfortaa'],
      },
       screens: {
+        '2md': '1600px',
         'wd': '3440px',
       },
     },
