@@ -71,7 +71,7 @@ import {
         <img src="cirdesblackabove.svg" alt="Top Right Symbol" class="pr-10 md:pr-20 h-12 md:h-20">
     </div>
    
-    <div class="relative w-full max-w-xl px-10 md:px-6 mx-auto my-8 text-sm md:text-sm font-comfortaa ">
+    <div class="relative w-full max-w-3xl px-10 md:px-6 mx-auto my-8 text-sm md:text-sm font-comfortaa ">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {#each faqItems as item, index}
                 {#if index != 2}
