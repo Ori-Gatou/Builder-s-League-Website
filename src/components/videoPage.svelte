@@ -1,11 +1,11 @@
-<div class="relative flex flex-col justify-between bg-black text-white h-screen lg:h-full">
+<div class="relative flex flex-col justify-between bg-black text-white h-min-screen">
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-20 h-5 md:h-10">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-14 h-5 md:h-10">
 
         <!-- Top Right Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-20 h-20 md:h-28 -translate-y-5">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-14 h-20 md:h-28 -translate-y-5">
     </div>
 
     <div class="relative w-full max-w-3xl text-center px-6 my-8 self-center">
@@ -35,8 +35,8 @@
 
     <div class="flex flex-row justify-between mb-8 md:mb-16">
         <!-- Bottom Left Symbol -->
-        <img src="circledeswhitebelow.svg" alt="Top Right Symbol" class="pl-5 sm:pl-10 md:pl-20 h-12 md:h-20">
+        <img src="circledeswhitebelow.svg" alt="Top Right Symbol" class="pl-5 sm:pl-14 md:pl-20 h-12 md:h-20">
         <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 md:pr-20 h-5 md:h-10">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 md:pr-14 h-5 md:h-10">
     </div>
 </div>

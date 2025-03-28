@@ -29,9 +29,9 @@
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-20 h-5 md:h-10">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pl-5 sm:pl-10 md:pl-14 h-5 md:h-10">
         <!-- Top Right Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-20 h-20 md:h-28 -translate-y-5">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-14 h-20 md:h-28 -translate-y-5">
     </div>
     
     <div class="relative w-full max-w-xl px-10 md:px-6 mx-auto mb-8 text-sm text-center md:text-sm ">
@@ -77,8 +77,8 @@
 
     <div class="flex flex-row justify-between">
         <!-- Bottom Left Symbol -->
-        <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 md:pl-20 h-20 md:h-28">
+        <img src="stardeswhite.png" alt="Top Right Symbol" class="pl-5 -translate-y-5 sm:pl-10 md:pl-14 h-20 md:h-28">
         <!-- Bottom Right Symbol -->
-        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 md:pr-20 h-5 md:h-10">
+        <img src="tridesabove.svg" alt="Top Left Symbol" class="pr-5 sm:pr-10 md:pr-14 h-5 md:h-10">
     </div>
 </div>
