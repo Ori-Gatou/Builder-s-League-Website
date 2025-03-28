@@ -1,4 +1,4 @@
-<div class="relative flex flex-col justify-between bg-black text-white h-min-screen">
+<div class="relative flex flex-col justify-between bg-black text-white min-h-screen">
     <!-- show when screen size is small -->
     <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left Symbol -->
