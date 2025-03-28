@@ -8,7 +8,7 @@
         <img src="stardeswhite.png" alt="Top Right Symbol" class="pr-5 sm:pr-10 md:pr-20 h-20 md:h-28 -translate-y-5">
     </div>
 
-    <div class="relative w-full max-w-3xl text-center px-6 self-center">
+    <div class="relative w-full max-w-3xl text-center px-6 my-8 self-center">
         <!-- Title -->
         <div class="text-[#EA5FA3] font-extrabold text-0">
             <span class="text-6xl">BUILDERS</span>
