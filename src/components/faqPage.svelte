@@ -60,7 +60,7 @@ import {
 
 </script>
 
-<div class="relative flex flex-col justify-between bg-white">
+<div class="relative flex flex-col justify-between bg-white min-h-screen">
 
    <div class="flex flex-row justify-between mt-8 md:mt-16">
         <!-- Top Left FAQ -->
