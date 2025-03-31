@@ -17,9 +17,9 @@
                 <img src="mainlogoblack.svg" alt="Builders League" class="h-20">
             </div>
             <div class="flex space-x-4 text-2xl">
-                <a href="https://www.facebook.com/profile.php?id=100091749894319"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/ori.gatou_creative_solutions/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/ori-gatou-creative-solutions-inc/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/15F4vWWQhW/?mibextid=wwXIfr/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/buildersleague.hq?igsh=NDNiMHg1b3AxbHJx&utm_source=qr/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/buildersleague/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
     
