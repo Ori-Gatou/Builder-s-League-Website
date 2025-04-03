@@ -2,26 +2,26 @@
     import { onMount } from "svelte";
 
     onMount(() => {
-        const collaborateInput = document.querySelectorAll('input[name="collaborate"]');
-        const ideaInput = document.querySelector('textarea[name="idea"]');
+        // const collaborateInput = document.querySelectorAll('input[name="collaborate"]');
+        // const ideaInput = document.querySelector('textarea[name="idea"]');
         
-        // Initially, set the 'idea' field as not required
-        if (ideaInput) {
-            ideaInput.removeAttribute('required');
-        }
+        // // Initially, set the 'idea' field as not required
+        // if (ideaInput) {
+        //     ideaInput.removeAttribute('required');
+        // }
         
-        // Listen for changes on the "collaborate" radio buttons
-        collaborateInput.forEach((input)=>{
-            input.addEventListener('change', ()=>{
-                if (input instanceof HTMLInputElement && ideaInput){
-                    if(input.value === "yes" && input.checked){
-                        ideaInput.setAttribute('required', 'true');
-                    }else{
-                        ideaInput.removeAttribute('required');
-                    }                   
-                }
-            })
-        })
+        // // Listen for changes on the "collaborate" radio buttons
+        // collaborateInput.forEach((input)=>{
+        //     input.addEventListener('change', ()=>{
+        //         if (input instanceof HTMLInputElement && ideaInput){
+        //             if(input.value === "yes" && input.checked){
+        //                 ideaInput.setAttribute('required', 'true');
+        //             }else{
+        //                 ideaInput.removeAttribute('required');
+        //             }                   
+        //         }
+        //     })
+        // })
     });
 </script>
 
