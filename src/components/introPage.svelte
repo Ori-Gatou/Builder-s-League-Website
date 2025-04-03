@@ -17,6 +17,7 @@
                 <img src="mainlogoblack.svg" alt="Builders League" class="h-20">
             </div>
             <div class="flex space-x-4 text-2xl">
+                <a href="https://discord.gg/6pBAERMMTR/"><i class="fa-brands fa-discord"></i></a>
                 <a href="https://www.facebook.com/share/15F4vWWQhW/?mibextid=wwXIfr/"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/buildersleague.hq?igsh=NDNiMHg1b3AxbHJx&utm_source=qr/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.tiktok.com/@buildersleague?_t=ZM-8v9TUgMulGA&_r=1/"><i class="fa-brands fa-tiktok"></i></a>
