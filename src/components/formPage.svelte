@@ -42,8 +42,8 @@
             <form action="/api/sendform" method="POST" class="space-y-4">
                 <label class="block text-left">1. What is your name?</label>
                 <input name="name" type="text" class="w-11/12 p-2 text-black rounded" required placeholder="Your name" maxlength="100"/>
-            
-                <label class="block text-left">2. Are you interested in sponsoring Builders League?</label>
+
+                <!-- <label class="block text-left">2. Are you interested in sponsoring Builders League?</label>
                 <div class="flex space-x-4 justify-center gap-10">
                     <label><input name="sponsor" type="radio" value="yes" required> Yes</label>
                     <label><input name="sponsor" type="radio" value="no" required> No</label>
@@ -63,8 +63,8 @@
             
                 <label class="block text-left">5. If you answered "Yes" to collaboration, please tell us more about your idea:</label>
                 <textarea name="idea" class="w-11/12 p-2 text-black rounded" placeholder="Your idea" maxlength="2000"/>
-            
-                <label class="block text-left">6. Please provide your email so we can reach out to you:</label>
+             -->
+                <label class="block text-left">2. Please provide your email so we can reach out to you:</label>
                 <input name="email" type="email" class="w-11/12 p-2 text-black rounded" required placeholder="Your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]$" maxlength="100" />
             
                 <br />
