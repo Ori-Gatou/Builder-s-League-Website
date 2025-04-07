@@ -53,6 +53,14 @@ import {
         {
             question: "9. I want to sponsor or support Builders League. How can I get involved?",
             answer: "We welcome sponsors a nd supporters! Contact us through our website or email us directly to learn about sponsorship opportunities and how you can contribute to our mission."
+        },
+        {
+            question: "10. What is Builders-AI?",
+            answer: "Builders-AI™ (BAI) is our AI-assistive Innovation Management, Design Sprint, and Coding platform to help unlock greater creativity and development activities during Hackathons and Builder events. Leading up to a Hackathon BAI manages the problem space for clients and participates to gain deeper insights into the challenges you'll be solving for. On the day of the Hackathon BAI supports teams during their design sprints, ideation, user research, and prototyping, all the way through to coding specific components to help validate your problem-solution-fit."
+        },
+        {
+            question: "11. Why should I participate in a Builder Event if Builders-AI is doing the work?",
+            answer: "Think of BAI as a subject matter expert to bounce ideas off of and keep you in rhythm with the challenge you're working on. It's there to keep you organized when things get chaotic and help expedite critical activities that support your development. It enhances the learning, creativity, market research, and validation of your prototype. In short, it helps you on your journey but does not replace the experience, camaraderie, accomplishment or the results you earn on your own merit."
         }
     ];
 
